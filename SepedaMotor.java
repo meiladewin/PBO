@@ -8,13 +8,13 @@ package praktikum5;
  *
  * @author acer
  */
-    class Mobil extends Kendaraan {
-    int jumlahPintu;
+    class SepedaMotor extends Kendaraan {
+    String jenisMesin;
     
     @Override
     public void tampilkanInfo() {
-        super.tampilkanInfo();  // Memanggil method tampilkanInfo() milik kelas induk
-        System.out.println("Jumlah Pintu: " + jumlahPintu);
+        super.tampilkanInfo();
+        System.out.println("Jenis Mesin: " + jenisMesin);
     }
 }
 
