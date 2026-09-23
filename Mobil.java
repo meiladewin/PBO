@@ -2,19 +2,17 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package praktikum5;
+package Tugas;
 
 /**
  *
- * @author acer
+ * @author LENOVO
  */
-    class Mobil extends Kendaraan {
+class Mobil extends KendaraanDarat {
     int jumlahPintu;
-    
     @Override
     public void tampilkanInfo() {
-        super.tampilkanInfo();  // Memanggil method tampilkanInfo() milik kelas induk
+        super.tampilkanInfo();
         System.out.println("Jumlah Pintu: " + jumlahPintu);
     }
 }
-

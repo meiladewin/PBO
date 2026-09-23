@@ -8,11 +8,11 @@ package Tugas;
  *
  * @author LENOVO
  */
-class SepedaMotor extends KendaraanDarat {
-    String jenisMesin;
+class KendaraanDarat extends Kendaraan {
+    int jumlahRoda;
     @Override
     public void tampilkanInfo() {
         super.tampilkanInfo();
-        System.out.println("Jenis Mesin: " + jenisMesin);
+        System.out.println("Jumlah Roda: " + jumlahRoda);
     }
 }

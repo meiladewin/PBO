@@ -8,11 +8,20 @@ package Tugas;
  *
  * @author LENOVO
  */
-class SepedaMotor extends KendaraanDarat {
-    String jenisMesin;
+
+public class Kucing extends Hewan {
+    public Kucing(String nama) {
+        super(nama, "Kucing");
+    }
+
     @Override
     public void tampilkanInfo() {
         super.tampilkanInfo();
-        System.out.println("Jenis Mesin: " + jenisMesin);
+        bersuara();
+    }
+
+    @Override
+    public void bersuara() {
+        System.out.println(nama + " bersuara: Meong! Meong!");
     }
 }

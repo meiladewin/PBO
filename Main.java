@@ -2,31 +2,19 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
  */
-package praktikum5;
+package Tugas;
 
 /**
  *
- * @author acer
+ * @author LENOVO
  */
 public class Main {
-
-    /**
-     * @param args the command line arguments
-     */
-
-        //public class Main {
     public static void main(String[] args) {
         Mobil mobil = new Mobil();
-        mobil.nama = "Toyota";
-        mobil.kecepatan = 180;
+        mobil.nama = "Mazda";
+        mobil.kecepatan = 200;
+        mobil.jumlahRoda = 4;
         mobil.jumlahPintu = 4;
-        mobil.tampilkanInfo(); 
-        
-        SepedaMotor motor = new SepedaMotor();
-        motor.nama = "Yamaha";
-        motor.kecepatan = 120;
-        motor.jenisMesin = "2-tak";
-        motor.tampilkanInfo();
+        mobil.tampilkanInfo();
     }
 }
-   

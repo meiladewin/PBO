@@ -6,33 +6,23 @@ package Tugas;
 
 /**
  *
- * @author acer
+ * @author LENOVO
  */
-class Hewan {
+public class Hewan {
     String nama;
     String jenis;
-    public void tampilkanInfo() {
-        System.out.println("Nama: " + nama + ", Jenis: " + jenis);
-    }
-}
-class Kucing extends Hewan {
-    public void bersuara() {
-        System.out.println("Kucing bersuara: Meong!");
-    }
-    @Override
-    public void tampilkanInfo() {
-        super.tampilkanInfo();
-        bersuara();
-    }
-}
-class Anjing extends Hewan {
-    public void bersuara() {
-        System.out.println("Anjing bersuara: Guk guk!");
-    }
-    @Override
-    public void tampilkanInfo() {
-        super.tampilkanInfo();
-        bersuara();
-    }
-}
 
+    public Hewan(String nama, String jenis) {
+        this.nama = nama;
+        this.jenis = jenis;
+    }
+
+    public void tampilkanInfo() {
+        System.out.println("Nama Hewan : " + nama);
+        System.out.println("Jenis      : " + jenis);
+    }
+
+    public void bersuara() {
+        System.out.println(nama + " mengeluarkan suara.");
+    }
+}
