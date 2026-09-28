@@ -9,15 +9,11 @@ package praktikum6;
  * @author ASUS
  */
 public class Main {
-
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-        Hewan kucing = new Hewan();
-        kucing.bersuara();          // memanggil bersuara() dari Hewan
-        kucing.makan("ikan");       // memanggil makan(String)
-        kucing.makan("ikan", 2);    // memanggil makan(String, int)
+        System.out.println("Nama   : Meila Dewin Khayarsya");
+        System.out.println("NPM    : 2505060066");
+        System.out.println("Alamat : Manhattan");
+        System.out.println("No_HP  : 081215189666");
     }
-}  
-    
+}
+
